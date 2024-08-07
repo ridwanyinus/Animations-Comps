@@ -4,7 +4,7 @@ import "animate.css";
 
 export const metadata: Metadata = {
   title: "Cursor effect ",
-  description: "Made With 💖",
+  description: "Made With 💖.",
 };
 
 export default function RootLayout({
