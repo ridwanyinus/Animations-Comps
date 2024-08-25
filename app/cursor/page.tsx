@@ -30,7 +30,7 @@ const Cursor: React.FC = () => {
   }, []);
 
   return (
-    <>
+    <main>
       <div
         className="cursor"
         style={{
@@ -45,7 +45,7 @@ const Cursor: React.FC = () => {
           top: `${blurPosition.y}px`,
         }}
       />
-    </>
+    </main>
   );
 };
 
