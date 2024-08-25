@@ -3,7 +3,7 @@ import "./globals.css";
 import "animate.css";
 
 export const metadata: Metadata = {
-  title: "Cursor effect ",
+  title: "Animations and Effects collections ",
   description: "Made With 💖.",
 };
 

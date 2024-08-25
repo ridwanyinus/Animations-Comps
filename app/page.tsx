@@ -13,7 +13,9 @@ const page = () => {
       <Link href="/wowjs" className="text-white text-3xl bg-neutral-700 p-4 text-center block text-center">
         wowjs animation
       </Link>
-      {/* <Wow /> */}
+      <Link href="/rippleEffect" className="mt-4 text-white text-3xl bg-neutral-700 p-4 text-center block text-center">
+        ripple animation
+      </Link>
     </div>
   );
 };
