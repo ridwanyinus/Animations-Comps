@@ -1,8 +1,5 @@
 import React from "react";
-import dynamic from "next/dynamic";
 import Link from "next/link";
-// const Wow = dynamic(() => import("@/components/Wow"), { ssr: false });
-// const Cursor = dynamic(() => import("@/components/Cursor"), { ssr: false });
 
 const page = () => {
   return (
@@ -15,6 +12,9 @@ const page = () => {
       </Link>
       <Link href="/rippleEffect" className="mt-4 text-white text-3xl bg-neutral-700 p-4 text-center block text-center">
         ripple animation
+      </Link>
+      <Link href="/particles" className="mt-4 text-white text-3xl bg-neutral-700 p-4 text-center block text-center">
+        particles effects
       </Link>
     </div>
   );
