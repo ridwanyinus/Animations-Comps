@@ -11,7 +11,7 @@ const page = () => {
       <ParticlesEffect />
       <div className="absolute  flex  flex-col justify-center items-center  bg-white py-1 w-1/2 mx-auto ">
         <Link rel="stylesheet" href="https://github.com/ridwanyinus/Animations-Comps" className="flex py-3 gap-x-1 hover:underline">
-          Link to github repo <FaGithub size={20} />
+          Link to github repo <FaGithub size={21} />
         </Link>
       </div>
       <NasaEffects />
