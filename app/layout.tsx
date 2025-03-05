@@ -3,7 +3,7 @@ import "./globals.css";
 import "animate.css";
 
 export const metadata: Metadata = {
-  title: "Animations and Effects collections ",
+  title: "Animations and Effects collections",
   description: "Made With 💖.",
 };
 

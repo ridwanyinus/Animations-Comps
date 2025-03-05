@@ -5,12 +5,10 @@ import "jquery.ripples";
 
 interface RippleEffectProps {
   className?: string;
-  // children: React.ReactNode;
 }
 
 const RippleEffect: React.FC<RippleEffectProps> = ({ className }) => {
   useEffect(() => {
-    // Initialize jQuery Ripples effect
     $(".ripple-container").ripples({
       resolution: 512,
       dropRadius: 20,

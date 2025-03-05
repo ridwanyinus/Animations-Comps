@@ -13,6 +13,90 @@ body {
   height: 100%;
 }
 
+@layer components {
+  .container {
+    max-height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    max-width: 100vw;
+  }
+
+  .mask {
+    -webkit-mask-image: url('../public/maskp.png');
+    -webkit-mask-position: right;
+    -webkit-mask-size: 100% 150%;
+    height: 100%;
+    mask-image: url('../public/maskp.png');
+    mask-position: right;
+    mask-size: 100% 150%;
+  }
+}
+
+.box {
+  box-shadow: 0 0 15px #39ff14;
+}
+
+/* IMAGE MASK */
+
+.image3 {
+  background: url('../public/category4.jpeg');
+}
+
+.image1 {
+  background: url('../public/category3.jpeg');
+}
+
+.image2 {
+  background: url('../public/category2.jpeg');
+}
+
+/*  IMAGE REVEAL ON SCROLL */
+
+.imageReveal {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+}
+
+.img-1 {
+  background: url('../public/category4.jpeg');
+}
+
+.img-2 {
+  background: url('../public/category3.jpeg');
+}
+
+.img-3 {
+  background: url('../public/category2.jpeg');
+}
+
+.piece1 {
+  background-position: 0 0px;
+}
+
+.piece2 {
+  background-position: 0 -100px;
+}
+
+.piece3 {
+  background-position: 0 -200px;
+}
+
+.piece4 {
+  background-position: 0 -300px;
+}
+
+.piece5 {
+  background-position: 0 -400px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Particles js */
+
 #particles-js {
   width: 100%;
   background-color: #b61924;
@@ -56,7 +140,7 @@ body {
 .your-element {
   width: 100%;
   height: 100vh;
-  background-image: url("/video.png");
+  background-image: url('/video.png');
   background-size: cover;
   position: relative;
   z-index: 999;
@@ -68,6 +152,32 @@ body {
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  background-image: url("/video.png");
+  background-image: url('/video.png');
   background-size: cover;
+}
+
+/* Kenburn */
+
+@keyframes kenburns {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1.1) rotate(3deg);
+  }
+}
+
+.kenburns-animation {
+  animation: kenburns 9000ms infinite alternate ease-in-out;
+  overflow: hidden;
+
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
 }
