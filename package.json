@@ -6,6 +6,7 @@
   },
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,22 +14,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "animate.css": "^4.1.1",
+    "gsap": "^3.12.5",
     "jquery": "^3.7.1",
     "jquery.ripples": "^0.6.3",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18",
-    "@gsap/react": "^2.1.1",
-    "gsap": "^3.12.5"
+    "react-dom": "^18"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.2.7",
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.22.0",
     "@types/jquery": "^3.5.30",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5",
+    "@typescript-eslint/parser": "^8.27.0",
+    "eslint": "^9.22.0",
+    "eslint-config-next": "15.2.3",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
