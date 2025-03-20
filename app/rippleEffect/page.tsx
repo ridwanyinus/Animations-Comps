@@ -1,5 +1,4 @@
 import dynamic from 'next/dynamic';
-import Link from 'next/link';
 
 const RippleEffect = dynamic(() => import('@/components/RippleEffect'), { ssr: false });
 

@@ -1,5 +1,9 @@
 {
   "name": "animation-collection",
+  "author": {
+    "name": "Ridwan",
+    "url": "https://github.com/ridwanyinus/Animations-Comps"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {

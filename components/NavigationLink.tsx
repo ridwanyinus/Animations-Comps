@@ -8,8 +8,8 @@ type NavLinkType = {
 const NavigationLink = ({ url, text }: NavLinkType) => {
   return (
     <div>
-      <Link href={url} className='mt-4 text-black text-3xl bg-white p-4 block text-center'>
-        {text}
+      <Link href={url}>
+        <p className='size-full text-neutral-200 hover:text-white'> {text}</p>
       </Link>
     </div>
   );
