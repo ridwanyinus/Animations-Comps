@@ -19,7 +19,7 @@ const page = () => {
           </div>
         ))}
       </div>
-      <p className='absolute bottom-4 left-1/2 -translate-x-1/2 text-neutral-600 text-xs'>I&apos;m working on it, will add more fasho :)</p>
+      <p className='absolute bottom-4 left-1/2 -translate-x-1/2 text-neutral-600 text-xs'>{"I'm working on it, will add more fasho :)"}</p>
     </main>
   );
 };
