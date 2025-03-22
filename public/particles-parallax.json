@@ -1,0 +1,126 @@
+{
+  "background": {
+    "color": {
+      "value": "#b61924"
+    }
+  },
+  "fullScreen": {
+    "enable": false
+  },
+  "fpsLimit": 120,
+  "detectRetina": true,
+  "interactivity": {
+    "detectsOn": "canvas",
+    "events": {
+      "onClick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "onHover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 312,
+        "links": {
+          "opacity": 0.3
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "quantity": 4
+      },
+      "remove": {
+        "quantity": 2
+      }
+    }
+  },
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "height": 800,
+        "width": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "sides": 5
+      }
+    },
+    "opacity": {
+      "value": {
+        "min": 0.3,
+        "max": 0.5
+      },
+      "random": true,
+      "animation": {
+        "enable": false,
+        "speed": 1,
+        "minimumValue": 0,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": {
+        "min": 1,
+        "max": 5
+      },
+      "random": true,
+      "animation": {
+        "enable": false,
+        "speed": 40,
+        "minimumValue": 0.1,
+        "sync": false
+      }
+    },
+    "links": {
+      "color": "#ffffff",
+      "distance": 150,
+      "enable": true,
+      "opacity": 0.3,
+      "width": 1
+    },
+    "move": {
+      "direction": "none",
+      "enable": true,
+      "outModes": "bounce",
+      "random": true,
+      "speed": {
+        "min": 1,
+        "max": 2
+      },
+      "straight": false,
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotate": {
+          "x": 600,
+          "y": 1200
+        }
+      }
+    }
+  }
+}

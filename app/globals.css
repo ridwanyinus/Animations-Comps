@@ -97,21 +97,6 @@ body {
 
 /* Particles js */
 
-#particles-js {
-  width: 100%;
-  background-color: #b61924;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-#nasa-js {
-  width: 100%;
-  background-color: #000;
-  height: 100vh;
-}
-
 .cursor {
   border-radius: 50%;
   position: fixed;

@@ -1,12 +1,17 @@
-import dynamic from 'next/dynamic';
-const ParticlesEffect = dynamic(() => import('@/components/ParticlesEffect'), { ssr: false });
-const NasaEffects = dynamic(() => import('@/components/NasaEffects'), { ssr: false });
+
+import Particles from '@/components/Particles';
+import nasaConfig from '@/public/particles-nasa.json';
+import basicConfig from '@/public/particles-basic.json';
+import ParallaxConfig from '@/public/particles-parallax.json';
 
 const page = () => {
   return (
-    <div className='relative h-screen w-full grid  items-start place-items-center'>
-      <ParticlesEffect />
-      <NasaEffects />
+    <div className='min-h-screen w-full relative'>
+
+      <Particles particlesConfig={ParallaxConfig} id='parallax-particles' />
+      <Particles particlesConfig={nasaConfig} id='nasa-particles' />
+      <Particles particlesConfig={basicConfig} id='basic-particles' />
+
     </div>
   );
 };
